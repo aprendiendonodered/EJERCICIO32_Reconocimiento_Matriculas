@@ -2,7 +2,14 @@
     "name": "EJERCICIO32_Lectura_Matricuas",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-plate-recognizer": "1.0.3",
+        "node-red-contrib-ui-media": "1.2.0",
+        "node-red-contrib-ui-upload": "0.5.2",
+        "node-red-dashboard": "3.1.7",
+        "node-red-node-ui-table": "0.3.12",
+        "node-red-contrib-image-output": "0.6.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
