@@ -1,1 +1,1379 @@
-[]
+[
+    {
+        "id": "15404f38755f1c06",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "226c5f03fc5089a5",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "Demos",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "94161b17b6876a25",
+            "8c76e18fb1d26896",
+            "e0ea922b67b9c071",
+            "80c6b5869ee5bb56",
+            "d27179e3a60df853",
+            "916c8d4be65ef3c0",
+            "d1d476b4e290fcd8"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 632,
+        "h": 162
+    },
+    {
+        "id": "9cf2236d28d8c22f",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "Insertar URL",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "45f6b3491f6f92ba",
+            "8f1c24697619c6e8",
+            "4ff8f1e1244b5294"
+        ],
+        "x": 14,
+        "y": 199,
+        "w": 512,
+        "h": 82
+    },
+    {
+        "id": "9351fbb6b8664a2f",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "Reconocimiento Matricula",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "940dcd922b196f67",
+            "2b1e819ce716f586",
+            "0d7a6c3cdc4e38d9",
+            "320a5d0d9e4c9652",
+            "38767b535b599234",
+            "968ac4c32b2b8766",
+            "df78709df196a7ae",
+            "59f135eb07bab76e",
+            "08f84507ca1f3c54",
+            "065972b3b82fa418",
+            "98de8e86dfea59c2",
+            "f82cd7fbeee967a6",
+            "78cc360eb750a9a9",
+            "5baa6d5bbd4f4885",
+            "3f0ae4fbd46031b5",
+            "ae49e561589adad9",
+            "651b98cf79424b3a"
+        ],
+        "x": 674,
+        "y": 19,
+        "w": 732,
+        "h": 382
+    },
+    {
+        "id": "a8691d3b3ab32116",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "Carga fichero",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "852438f80aaeffa6"
+        ],
+        "x": 374,
+        "y": 299,
+        "w": 152,
+        "h": 82
+    },
+    {
+        "id": "0ab4e8e25e8c8614",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "Consultas API",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "bedc84df114818d0",
+            "b7f056f7bf827deb",
+            "868652254957937d",
+            "b8e90a71ba1cf760",
+            "fb87cae0cbe3ae0a",
+            "e6d605b18a24c217",
+            "f8be8302c7ee6fd9"
+        ],
+        "x": 34,
+        "y": 499,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "49caa0976823b366",
+        "type": "group",
+        "z": "15404f38755f1c06",
+        "name": "MQTT",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "f31935d6e40318fd",
+            "7a172ed9b669f626",
+            "cd577f5fec738b9d"
+        ],
+        "x": 34,
+        "y": 399,
+        "w": 532,
+        "h": 82
+    },
+    {
+        "id": "e3535aa6b992754d",
+        "type": "ui_tab",
+        "name": "Reconocimiento de Matrículas",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1920a6c54ba431c7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c80535c744e4fce7",
+        "type": "ui_group",
+        "name": "Imagen",
+        "tab": "e3535aa6b992754d",
+        "order": 2,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f95f9501da2f32c9",
+        "type": "ui_group",
+        "name": "Consultas",
+        "tab": "e3535aa6b992754d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0f7b04fea1af724e",
+        "type": "ui_group",
+        "name": "Carga de datos",
+        "tab": "e3535aa6b992754d",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee607568145a4891",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "aprendiendonodered.com",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "940dcd922b196f67",
+        "type": "plate-recognizer",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "inputField": "payload",
+        "inputFieldType": "msg",
+        "outputField": "payload",
+        "outputFieldType": "msg",
+        "url": "https://api.platerecognizer.com/v1/plate-reader/",
+        "ignoreDuring": true,
+        "makeAndModel": true,
+        "statusText": "count",
+        "cameraId": "",
+        "separateMsg": false,
+        "regionFilter": false,
+        "regionList": "[]",
+        "regionListType": "json",
+        "x": 780,
+        "y": 100,
+        "wires": [
+            [
+                "2b1e819ce716f586",
+                "968ac4c32b2b8766",
+                "08f84507ca1f3c54"
+            ],
+            [
+                "651b98cf79424b3a"
+            ]
+        ]
+    },
+    {
+        "id": "bedc84df114818d0",
+        "type": "plate-statistics",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "outputField": "payload",
+        "outputFieldType": "msg",
+        "url": "https://api.platerecognizer.com/v1/statistics/",
+        "x": 200,
+        "y": 540,
+        "wires": [
+            [
+                "b7f056f7bf827deb",
+                "b8e90a71ba1cf760"
+            ]
+        ]
+    },
+    {
+        "id": "94161b17b6876a25",
+        "type": "http request",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2019/01/coches%20mas%20vendidos%20Espa%C3%B1a%202018.jpg",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "940dcd922b196f67",
+                "634b7e616522d9e9",
+                "320a5d0d9e4c9652",
+                "59f135eb07bab76e"
+            ]
+        ]
+    },
+    {
+        "id": "2b1e819ce716f586",
+        "type": "debug",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8c76e18fb1d26896",
+        "type": "inject",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "94161b17b6876a25"
+            ]
+        ]
+    },
+    {
+        "id": "b7f056f7bf827deb",
+        "type": "debug",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "634b7e616522d9e9",
+        "type": "image",
+        "z": "15404f38755f1c06",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": false,
+        "pass": false,
+        "outputs": 0,
+        "x": 760,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e0ea922b67b9c071",
+        "type": "http request",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://www.mercedes-benz.com/en/classic/history/h-number-plate-2020/_jcr_content/root/paragraph/paragraph-right/paragraphimage/image/MQ6-8-image-20191205151927/02-mercedes-benz-classic-h-number-plate-2020-2560x1440.jpeg",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [
+                "940dcd922b196f67",
+                "634b7e616522d9e9",
+                "320a5d0d9e4c9652",
+                "59f135eb07bab76e"
+            ]
+        ]
+    },
+    {
+        "id": "80c6b5869ee5bb56",
+        "type": "inject",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "e0ea922b67b9c071"
+            ]
+        ]
+    },
+    {
+        "id": "0d7a6c3cdc4e38d9",
+        "type": "ui_media",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "group": "c80535c744e4fce7",
+        "name": "",
+        "width": 0,
+        "height": 0,
+        "order": 2,
+        "category": "",
+        "file": "",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "868652254957937d",
+        "type": "ui_gauge",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "group": "f95f9501da2f32c9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nº de Consultas",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1500",
+        "seg2": "2000",
+        "className": "",
+        "x": 600,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b8e90a71ba1cf760",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.usage.calls",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 580,
+        "wires": [
+            [
+                "868652254957937d",
+                "e6d605b18a24c217"
+            ]
+        ]
+    },
+    {
+        "id": "fb87cae0cbe3ae0a",
+        "type": "ui_gauge",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "group": "f95f9501da2f32c9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Consultas disponibles",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "2500",
+        "max": "0",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1000",
+        "seg2": "500",
+        "className": "",
+        "x": 800,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "e6d605b18a24c217",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2500-payload",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 620,
+        "wires": [
+            [
+                "fb87cae0cbe3ae0a"
+            ]
+        ]
+    },
+    {
+        "id": "320a5d0d9e4c9652",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "headers[\"content-type\"]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "0d7a6c3cdc4e38d9"
+            ]
+        ]
+    },
+    {
+        "id": "38767b535b599234",
+        "type": "ui_table",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "group": "c80535c744e4fce7",
+        "name": "Matriculas",
+        "order": 1,
+        "width": 15,
+        "height": 4,
+        "columns": [
+            {
+                "field": "plate",
+                "title": "Matricula",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "region.code",
+                "title": "Pais",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "vehicle.type",
+                "title": "Tipo",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "dscore",
+                "title": "dScore",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "dscore_stars",
+                "title": "Plate Detection",
+                "width": "",
+                "align": "left",
+                "formatter": "star",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "score",
+                "title": "Score",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "score_stars",
+                "title": "Reading Level",
+                "width": "",
+                "align": "left",
+                "formatter": "star",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1210,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "45f6b3491f6f92ba",
+        "type": "ui_form",
+        "z": "15404f38755f1c06",
+        "g": "9cf2236d28d8c22f",
+        "name": "",
+        "label": "URL imagen",
+        "group": "0f7b04fea1af724e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "url",
+                "value": "url",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "url": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "4ff8f1e1244b5294"
+            ]
+        ]
+    },
+    {
+        "id": "8f1c24697619c6e8",
+        "type": "http request",
+        "z": "15404f38755f1c06",
+        "g": "9cf2236d28d8c22f",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "940dcd922b196f67",
+                "634b7e616522d9e9",
+                "320a5d0d9e4c9652",
+                "59f135eb07bab76e"
+            ]
+        ]
+    },
+    {
+        "id": "4ff8f1e1244b5294",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9cf2236d28d8c22f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "payload.url",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "8f1c24697619c6e8"
+            ]
+        ]
+    },
+    {
+        "id": "968ac4c32b2b8766",
+        "type": "link out",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "nueva petición",
+        "mode": "link",
+        "links": [
+            "f8be8302c7ee6fd9"
+        ],
+        "x": 935,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f8be8302c7ee6fd9",
+        "type": "link in",
+        "z": "15404f38755f1c06",
+        "g": "0ab4e8e25e8c8614",
+        "name": "",
+        "links": [
+            "968ac4c32b2b8766"
+        ],
+        "x": 75,
+        "y": 540,
+        "wires": [
+            [
+                "bedc84df114818d0"
+            ]
+        ]
+    },
+    {
+        "id": "852438f80aaeffa6",
+        "type": "ui_upload",
+        "z": "15404f38755f1c06",
+        "g": "a8691d3b3ab32116",
+        "group": "0f7b04fea1af724e",
+        "title": "Carga Imagen (max. 256kb)",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "chunk": 256,
+        "transfer": "binary",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "940dcd922b196f67",
+                "634b7e616522d9e9",
+                "df78709df196a7ae",
+                "59f135eb07bab76e"
+            ]
+        ]
+    },
+    {
+        "id": "df78709df196a7ae",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "file.type",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 320,
+        "wires": [
+            [
+                "0d7a6c3cdc4e38d9"
+            ]
+        ]
+    },
+    {
+        "id": "f31935d6e40318fd",
+        "type": "mqtt in",
+        "z": "15404f38755f1c06",
+        "g": "49caa0976823b366",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ee607568145a4891",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 490,
+        "y": 440,
+        "wires": [
+            [
+                "940dcd922b196f67",
+                "59f135eb07bab76e",
+                "ae49e561589adad9"
+            ]
+        ]
+    },
+    {
+        "id": "7a172ed9b669f626",
+        "type": "ui_form",
+        "z": "15404f38755f1c06",
+        "g": "49caa0976823b366",
+        "name": "",
+        "label": "Topic MQTT",
+        "group": "0f7b04fea1af724e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "topic",
+                "value": "topic",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "topic": ""
+        },
+        "payload": "",
+        "submit": "Subscribe",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "cd577f5fec738b9d"
+            ]
+        ]
+    },
+    {
+        "id": "cd577f5fec738b9d",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "49caa0976823b366",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "subscribe",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.topic",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "f31935d6e40318fd"
+            ]
+        ]
+    },
+    {
+        "id": "59f135eb07bab76e",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 240,
+        "wires": [
+            [
+                "38767b535b599234"
+            ]
+        ]
+    },
+    {
+        "id": "08f84507ca1f3c54",
+        "type": "switch",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "property": "$count(payload.results)\t",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 950,
+        "y": 100,
+        "wires": [
+            [
+                "78cc360eb750a9a9"
+            ],
+            [
+                "98de8e86dfea59c2"
+            ]
+        ]
+    },
+    {
+        "id": "065972b3b82fa418",
+        "type": "ui_toast",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1250,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98de8e86dfea59c2",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "No hay matriculas en la imagen",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 180,
+        "wires": [
+            [
+                "065972b3b82fa418"
+            ]
+        ]
+    },
+    {
+        "id": "f82cd7fbeee967a6",
+        "type": "split",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1330,
+        "y": 80,
+        "wires": [
+            [
+                "5baa6d5bbd4f4885"
+            ]
+        ]
+    },
+    {
+        "id": "78cc360eb750a9a9",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.results",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 80,
+        "wires": [
+            [
+                "f82cd7fbeee967a6"
+            ]
+        ]
+    },
+    {
+        "id": "5baa6d5bbd4f4885",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.score",
+                "pt": "msg",
+                "to": "payload.score*100",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.dscore",
+                "pt": "msg",
+                "to": "payload.dscore*100",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.score_stars",
+                "pt": "msg",
+                "to": "payload.score > 90 ? 5 : payload.score > 85 ? 4 : payload.score > 80 ? 3 : payload.score > 70 ? 2 : payload.score > 60 ? 1 : 0",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.dscore_stars",
+                "pt": "msg",
+                "to": "payload.dscore > 90 ? 5 : payload.dscore > 85 ? 4 : payload.dscore > 80 ? 3 : payload.dscore > 70 ? 2 : payload.dscore > 60 ? 1 : 0",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 120,
+        "wires": [
+            [
+                "3f0ae4fbd46031b5"
+            ]
+        ]
+    },
+    {
+        "id": "3f0ae4fbd46031b5",
+        "type": "join",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1330,
+        "y": 120,
+        "wires": [
+            [
+                "38767b535b599234"
+            ]
+        ]
+    },
+    {
+        "id": "ae49e561589adad9",
+        "type": "change",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 360,
+        "wires": [
+            [
+                "0d7a6c3cdc4e38d9"
+            ]
+        ]
+    },
+    {
+        "id": "d1d476b4e290fcd8",
+        "type": "mqtt out",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "topic": "cursomqtt/enrique/imagen",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ee607568145a4891",
+        "x": 510,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d27179e3a60df853",
+        "type": "inject",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "916c8d4be65ef3c0"
+            ]
+        ]
+    },
+    {
+        "id": "916c8d4be65ef3c0",
+        "type": "http request",
+        "z": "15404f38755f1c06",
+        "g": "226c5f03fc5089a5",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://www.autopista.es/uploads/s1/10/50/04/22/los-coches-de-super-lujo-que-compraron-los-comisionistas-con-el-dinero-de-las-mascarillas.jpeg",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "d1d476b4e290fcd8"
+            ]
+        ]
+    },
+    {
+        "id": "651b98cf79424b3a",
+        "type": "debug",
+        "z": "15404f38755f1c06",
+        "g": "9351fbb6b8664a2f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 200,
+        "wires": []
+    }
+]
